@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@400;700&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px;
+    .logo h1{
+        margin: 0;
+        font-family: 'Bungee Shade', cursive;
+        color: #DCD7C9;
+        font-size: 3rem;
+    }
+    .navlinks a {
+        text-decoration: none;
+        color: #DCD7C9;
+        padding: 0 30px;
+    }
+
+}

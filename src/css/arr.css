@@ -1,0 +1,35 @@
+.main-bg {
+    padding: 50px 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.bg-1 {
+    background-color: #DCD7C9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.de {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.de img {
+    cursor: pointer;
+}
+
+.bg-1 h2 {
+    color: #2C3639;
+}
+
+.bg-1 h3 {
+    color: #A27B5C;
+    margin: 0;
+    width: 50%;
+}
